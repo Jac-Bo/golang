@@ -8,12 +8,18 @@
 ## Database Folders
 ### DB
 * Golang
+
 * * DB --> Database Code
 > > > config.go
 > > > connectdb.go 
+
 * * Model --> Database Code
 > > > manga.go
+
 * * Repository --> Database Code
 > > > manga_interface.go
 > > > manga.go
-* * Controller --> Web Server Code
+
+* * Controllers --> Web Server Code
+> > > manga_interface.go
+> > > manga.go 
