@@ -23,3 +23,7 @@
 * * Controllers --> Web Server Code
 > > > manga_interface.go
 > > > manga.go 
+
+
+current issue need to fix
+// hostname incorrect
