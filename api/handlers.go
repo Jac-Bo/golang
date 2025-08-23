@@ -9,7 +9,7 @@ import (
 func ArticleHandler(c *gin.Context) {
 	c.Header("Content-Type", "application/json")
 	c.JSON(http.StatusAccepted, gin.H{
-		"message": "Article Handler",
+		"message": GetArticles(c),
 	})
 }
 
